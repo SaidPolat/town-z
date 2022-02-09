@@ -300,6 +300,7 @@ public class AWP : MonoBehaviour
         audioManager.Play("AWP Bolt");
     }
 
+    //for open the scope
     public void OpenScope()
     {
         isScopeOpen = true;
