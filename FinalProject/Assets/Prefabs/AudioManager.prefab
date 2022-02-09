@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6561621171116215773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6561621171116215747}
+  - component: {fileID: 6561621171116215746}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6561621171116215747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561621171116215773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.1319826, y: 1.2864296, z: 21.339779}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6561621171116215746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561621171116215773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76bd676d720d7a4e93d575ab9a95ed1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Ak Switch
+    clip: {fileID: 8300000, guid: fa3bb7c67edc27041b1ffad7b586835d, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: akReload1
+    clip: {fileID: 8300000, guid: e7f02ed728493184cab9347376e59870, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: akReload2
+    clip: {fileID: 8300000, guid: f0c631bc3bef7dc439cca4404fb11105, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: akReload3
+    clip: {fileID: 8300000, guid: 858092442b2ca8143b2784c51e303c6e, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: M4 Reload1
+    clip: {fileID: 8300000, guid: 42c254c146bc5e248bd06d58fe226ef1, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: M4 Reload2
+    clip: {fileID: 8300000, guid: 82af9de1db564b64da91dde30f37dcd9, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: M4 Reload3
+    clip: {fileID: 8300000, guid: 78a67f235d89cab45b21b097f192216f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: M4 Switch
+    clip: {fileID: 8300000, guid: e069f868925dd3c4c99d642882da4cef, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Deagle Reload1
+    clip: {fileID: 8300000, guid: 8a8044a5a0aad6a44aa8f8316f19854a, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Deagle Reload2
+    clip: {fileID: 8300000, guid: d345de65b9731654a83837e6b174771e, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Deagle Reload3
+    clip: {fileID: 8300000, guid: e115039efbf71c3408da9f10fe20f191, type: 3}
+    volume: 0.204
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Reload1
+    clip: {fileID: 8300000, guid: 558aa4607baf12d409e7ac024fd7cf95, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Reload2
+    clip: {fileID: 8300000, guid: 3bcff91fdc2a20e4cbdd38e3cb7d30f5, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Reload3
+    clip: {fileID: 8300000, guid: 7a2f2058fdeccd94393fa2518eab05c7, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MP7 Reload1
+    clip: {fileID: 8300000, guid: 67f9acb593787ba489aa3a7825a3295e, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MP7 Reload2
+    clip: {fileID: 8300000, guid: 818c2b92b4e29e04880d150487822a8c, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MP7 Reload3
+    clip: {fileID: 8300000, guid: 80b14a4d673f7274e95473ee9af2a3c8, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Deagle Switch
+    clip: {fileID: 8300000, guid: c266d7596d28d144fa084d54b919bb3a, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MP7 Switch
+    clip: {fileID: 8300000, guid: ab16e7d33a5f9e646b5c72b6d5348d11, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FiveSeven Switch
+    clip: {fileID: 8300000, guid: faeacfaf07126ac458814be3048ad20f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shotgun Switch
+    clip: {fileID: 8300000, guid: 79b0423c94dc5b24997168e08986b582, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FiveSeven Reload1
+    clip: {fileID: 8300000, guid: 547579c2fabe04b4ea605b8074a7791b, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FiveSeven Reload2
+    clip: {fileID: 8300000, guid: 6ddd1a781f92e404080238aaf68cfdf7, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: FiveSeven Reload3
+    clip: {fileID: 8300000, guid: 3f56190899a38654591d3b10ea2fbb1d, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shotgun Reload1
+    clip: {fileID: 8300000, guid: a5951cdf29dda0d46ac64b5bcea4ab0b, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Shotgun Reload2
+    clip: {fileID: 8300000, guid: aa698042852c19e4d99919b586f068f3, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 9acedbcc7d6de8c45afe3aefeb7048f6, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Scope
+    clip: {fileID: 8300000, guid: 56c477b534750384eae1b5e185690e28, type: 3}
+    volume: 0.577
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Knife Switch
+    clip: {fileID: 8300000, guid: 590942ead1f2daa4e82ee21490f96cbd, type: 3}
+    volume: 0.527
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Shoot
+    clip: {fileID: 8300000, guid: 7c394cbd6fca20c4e9c20506e301dba9, type: 3}
+    volume: 0.571
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grenade Hit
+    clip: {fileID: 8300000, guid: c84c5f5be293e2b46b9eba32fb6055d3, type: 3}
+    volume: 0.753
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grenade Explosion
+    clip: {fileID: 8300000, guid: 8c8bba43d4d43784ab973a2ffe01c4af, type: 3}
+    volume: 0.795
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Knife HitSurface2
+    clip: {fileID: 8300000, guid: 1a52ce16e72adb844bcd585368551e09, type: 3}
+    volume: 0.803
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grenade Ring
+    clip: {fileID: 8300000, guid: 7c68e93ba2996e1409cd24d8e4be77c7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Grenade Swing
+    clip: {fileID: 8300000, guid: 6b637967bcdd7a1498c51d3c6518f993, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu1
+    clip: {fileID: 8300000, guid: 5fc8fbe1eacb48d4e946ef4804558b11, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu2
+    clip: {fileID: 8300000, guid: bc29d7d4a04b42f42a7523a2af1ba0d8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu3
+    clip: {fileID: 8300000, guid: 4550673e9cbd4e640911711d0fb9506f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu4
+    clip: {fileID: 8300000, guid: 87ec6136a0c60804fb7ca42f57b47295, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu5
+    clip: {fileID: 8300000, guid: 4b964ec702b477f4a94993f92f333bec, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OnPointerSFX
+    clip: {fileID: 8300000, guid: cf21ee13dc54eba4ba10d25f8f628230, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AWP Bolt
+    clip: {fileID: 8300000, guid: 628e3f2523a9e00419d903b7119718b0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu Theme
+    clip: {fileID: 8300000, guid: 670fe1e2068b7d645b227bac825c64d1, type: 3}
+    volume: 0.504
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver Theme
+    clip: {fileID: 8300000, guid: a8c1d6ea8800cfc489a3298d6aac23cc, type: 3}
+    volume: 0.504
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
